@@ -31,7 +31,7 @@ header nav ul {
 }
 
 .btn {
-    background-color: gray;
+    background-color: black;
     border-radius: 5px;
     color: white;
     padding: 5px 15px;
@@ -46,8 +46,49 @@ header nav ul {
     font-size: 14px;
 }
 
+.sectionhero{
+    background-image: url(asset/Banner.jpg);
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    background-position: center;
+
+    height: 100vh;
+
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+
+.margin {
+    margin: 20px;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.container-1000 {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.sectionhero div{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
 .sectionhero {
-    background-image: url(asset/Placeholder-img-rect-big.png);
+    background-image: url(asset/Banner.jpg);
 
     background-repeat: no-repeat;
 
@@ -58,11 +99,37 @@ header nav ul {
     height: 100vh;
 }
 
-h1 {
-    margin-bottom: 20px;
-    font-size: 45px;
+.textesurimage{
+     display: inline-block; 
 }
 
-.margin {
-    margin: 20px;
+.textalign {
+  text-align: left;
+}
+
+.textaligncenter{
+    text-align: center;
+}
+
+.width{
+    width: 33%;
+}
+
+.textalignright{
+    text-align: right;
+}
+
+.bottom{
+    margin-bottom: 20px;
+}
+
+.space-between2{
+    justify-content: space-between;
+}
+
+.btn2{
+    background-color: white;
+    color: black;
+    padding: 5px 15px;
+    display: inline-block;
 }
