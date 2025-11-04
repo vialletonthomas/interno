@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.w-33 {
+    width: 33%;
+}
+
+.logo {
+    width: 70px;
+}
+
+.align-center {
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+.btn {
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 15px;
+    display: inline-block;
+}
+
+.btn-primary {
+    font-size: 25px;
+}
+
+.btn-secondary {
+    font-size: 14px;
+}
+
+.sectionhero {
+    background-image: url(asset/Placeholder-img-rect-big.png);
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    background-position: center;
+
+    height: 100vh;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+
+.margin {
+    margin: 20px;
+}
