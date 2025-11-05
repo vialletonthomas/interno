@@ -35,8 +35,8 @@ display: inline-block;
     width: 100%;
 }
 
-.margin-top-100{
-    margin-top: 100px;
+.margin-top-30{
+    margin-top: 30px;
 }
 
 /*FLEX BOT*/
@@ -71,6 +71,10 @@ display: inline-block;
     width: 100%;
 }
 
+.w-85{
+    width: 85%;
+}
+
 .w-50 {
     width: 50%;
 }
@@ -80,12 +84,24 @@ display: inline-block;
 
 }
 
+.w40{
+    width: 40%;
+}
+
 .w-33 {
     width: 33%;
 }
 
 .w-25 {
     width: 25%;
+}
+
+.w-10{
+    width: 10%;
+}
+
+.w-5{
+    width: 5%;
 }
 
 /*HEADER*/
@@ -160,4 +176,51 @@ h1{
 
 .marginright{
     margin-right: 3px;
+}
+
+.reverse{flex-direction: row-reverse;
+}
+
+.border-raduis{
+    border-radius: 0px 200px 0px 30px;
+}
+
+.btn2{
+    background-color: blanchedalmond;
+}
+
+.border-raduiscuisine{
+    border-radius: 0px 40px 0px 0px;
+}
+
+.border-raduisentreetgarage{
+    border-radius: 40px 0px 0px 0px;
+}
+
+.border-raduisbureauxetchambre{
+    border-radius: 0px 0px 40px 0px;
+}
+
+.border-raduiscabinetetsalon{
+    border-radius: 0px 0px 0px 40px;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.backgroundcolor{
+    background-color: #292F36;
+}
+
+.marginleft{
+    margin-left: 100px;
+}
+
+thead {
+  text-align: center;
+}
+
+.textalign{
+    text-align: end;
 }
