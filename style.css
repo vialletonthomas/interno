@@ -268,5 +268,13 @@ h1{
 }
 
 .marginright{
-    margin-right: 20px;
+    margin-right: 8px;
+}
+
+.widthtest{
+    width: 200px;
+}
+
+.justifycontentflex{
+    justify-content: first baseline;
 }
